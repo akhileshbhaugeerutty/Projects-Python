@@ -1,88 +1,36 @@
-# Project Title
+# Financial Distress
 
-One Paragraph of project description goes here
+Classification & Regression to understand Financial Distress on various companies. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The folder contains the Jupyter Notebook, coded in Python (ipnyb) and the PowerPoint presentation. For ease of use and access, the latter has been converted to a .pdf.
 
-### Prerequisites
+## Pre-Requisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+- Python packages: pandas, numpy, seaborn, sklearn.
+- Download the DataFrame from [Kaggle](https://www.kaggle.com/shebrahimi/financial-distress), and modify the first instruction of the Notebook. 
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+- 3672 observations of 84 variables. The target variable is 'Financial Distress', a continuous variable where > -0.5 indicates a healthy company. 
+- Hold-Out Set made with 30% of all observations, and stratified sampling to conserve all proportions.
+- The Cross Validation used to fit the best parameters takes quite some time. The best parameters found on my computer have been saved below the instruction. 
 
-### Break down into end to end tests
+### Algorithms & Methods
 
-Explain what these tests test and why
+Problem seen as both Classification & Regression, and the methods are commonly known as having both types of algorithms. 
+Algorithms used (6 in total): 
+  1. Random Forests
+  2. Gradient Boosting
+  3. Support Vector Machines
+  
 
-```
-Give an example
-```
+### Scoring
 
-### And coding style tests
+*Skewed* Data: much more healthy companies than in financial distress. --> Accuracy is biased, so F-Score is used.
+A classification according to a certain threshold is made after the Regression in order to use the same scoring indicators, and compare Regression & Classification.
 
-Explain what these tests test and why
+## Author
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* **Akhilesh Bhaugeerutty** - Université Paris-Dauphine (PSL)
