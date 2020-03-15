@@ -19,7 +19,7 @@ The folder contains the Jupyter Notebook, coded in Python (ipnyb) and the PowerP
 
 ### Algorithms & Methods
 
-- The Cross Validations used to fine the best tuning parameters take quite some time. The best parameters found on my computer have been saved below the instruction. 
+- The Cross Validations used to fine the best tuning parameters take quite some time. The best parameters found on my computer have been saved below the instructions. 
 - Problem seen as both Classification & Regression, and the methods are commonly known as having both types of algorithms. <br>
 Algorithms used (6 in total): 
   1. Random Forests
@@ -28,7 +28,7 @@ Algorithms used (6 in total):
   
 ### Scoring
 
-*Skewed* Data: much more healthy companies than in financial distress. --> Accuracy is biased, so F-Score is used. <br>
+*Skewed* Data: much more healthy companies than in financial distress. --> biased Accuracy, so **F-Score** is used. <br>
 A classification according to a certain threshold is made after the Regression in order to use the same scoring indicators, and compare Regression & Classification.
 
 ## Author
