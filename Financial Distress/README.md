@@ -19,8 +19,8 @@ The folder contains the Jupyter Notebook, coded in Python (ipnyb) and the PowerP
 
 ### Algorithms & Methods
 
--The Cross Validations used to fine the best tuning parameters take quite some time. The best parameters found on my computer have been saved below the instruction. 
--Problem seen as both Classification & Regression, and the methods are commonly known as having both types of algorithms. <br>
+- The Cross Validations used to fine the best tuning parameters take quite some time. The best parameters found on my computer have been saved below the instruction. 
+- Problem seen as both Classification & Regression, and the methods are commonly known as having both types of algorithms. <br>
 Algorithms used (6 in total): 
   1. Random Forests
   2. Gradient Boosting
