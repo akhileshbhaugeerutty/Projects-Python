@@ -19,7 +19,7 @@ The folder contains the Jupyter Notebook, coded in Python (ipnyb) and the PowerP
 
 ### Algorithms & Methods
 
-Problem seen as both Classification & Regression, and the methods are commonly known as having both types of algorithms. 
+Problem seen as both Classification & Regression, and the methods are commonly known as having both types of algorithms. <br>
 Algorithms used (6 in total): 
   1. Random Forests
   2. Gradient Boosting
